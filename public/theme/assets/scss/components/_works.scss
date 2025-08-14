@@ -1,0 +1,32 @@
+.single-work {
+     width: 280px;
+     background: #fff;
+     margin: 0 auto;
+     padding: 30px;
+     box-shadow: 0 4px 20px #ddd;
+     border-radius: 5px;
+     margin-bottom: 30px;
+     &.active{
+          padding: 60px 30px;
+     }
+ }
+ 
+ 
+ .single-work h1 {
+     background: $gradient4;
+     display: inline-block;
+     width: 60px;
+     height: 60px;
+     text-align: center;
+     line-height: 56px;
+     font-size: 30px;
+     border-radius: 50%;
+     margin-bottom: 20px;
+     color: #fff;
+     border: 5px solid #F7E1E4
+ }
+ 
+ .single-work h3 {
+     font-size: 25px;
+     font-weight: 700;
+ }

@@ -1,0 +1,56 @@
+.cursor {
+     height: 30px;
+     width: 30px;
+     border-radius: 50%;
+     border: 1px solid $secondaryColor;
+     position: absolute;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transform: translate(-50%, -50%);
+     @include transition(.3s);
+     transition-property: background, transform;
+     pointer-events: none;
+     transform-origin: 100%;
+     z-index: 99;
+     &.cursor2{
+          border: 1px solid $color11;
+          .cursor-dot{
+               background:  $color11;
+          }
+     }
+     &.cursor3{
+          border: 1px solid $color12;
+          .cursor-dot{
+               background:  $color12;
+          }
+     }
+     &.cursor5{
+          border: 1px solid $color14;
+          .cursor-dot{
+               background:  $color14;
+          }
+     }
+     &.cursor6{
+          border: 1px solid $color16;
+          .cursor-dot{
+               background:  $color16;
+          }
+     }
+     &.cursor7{
+          border: 1px solid $color12;
+          .cursor-dot{
+               background:  $color12;
+          }
+     }
+     .cursor-dot{
+          height: 6px;
+          width: 6px;
+          border-radius: 50%;
+          background: $secondaryColor;
+     }
+     @media #{$xm}{
+          display: none;
+     }
+ }
+ 

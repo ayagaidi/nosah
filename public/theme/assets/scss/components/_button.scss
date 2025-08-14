@@ -1,0 +1,267 @@
+.cbtn{
+     font-size: 17px;
+     padding: 12px 30px;
+     @include transition (.3s);
+     display: inline-block;
+     @media #{$xss}{
+          font-size: 14px;
+     }
+     &:hover{
+          @include transition (.3s);
+     }
+     &.app-btn1{
+          background: $whiteColor;
+          border: 2px solid transparent;
+          @extend %radius30;
+          color: $primaryColor !important;
+          i{
+               padding-right: 10px;
+               font-size: 16px;
+          }
+          &:hover{
+               background: $color14;
+               color: $whiteColor;
+               border-color: $whiteColor;
+          }
+     }
+
+     &.app-btn2{
+          background: $whiteColor;
+          border: 2px solid transparent;
+          @extend %radius30;
+          color: $primaryColor !important;
+          i{
+               padding-right: 10px;
+               font-size: 16px;
+          }
+          &:hover{
+               background: $color16;
+               color: $whiteColor !important;
+               border-color: $whiteColor;
+          }
+     }
+     &.effect1{
+          &:hover{
+               background:$secondaryColor;
+               color: $whiteColor;
+          }
+     }
+     
+     &.effect2{
+          background: $secondaryColor;
+          border: 2px solid $secondaryColor;
+          @extend %radius30;
+          color: $whiteColor;
+          &:hover{
+               background: $whiteColor;
+               color: $primaryColor;
+          }
+     }
+     &.effect3{
+          background: transparent;
+          border: 2px solid $whiteColor;
+          @extend %radius30;
+          color: $whiteColor;
+          &:hover{
+               background: $whiteColor;
+               color: $primaryColor !important;
+          }
+     }
+     &.effect4{
+          background: transparent;
+          border: 2px solid $color11;
+          @extend %radius30;
+          color: $primaryColor;
+          &:hover{
+               background: $color11;
+               color: $whiteColor
+          }
+     }
+     &.effect5{
+          background: $color12;
+          border: 2px solid transparent;
+          @extend %radius3;
+          color: $whiteColor;
+          &:hover{
+               background: $whiteColor;
+               color: $primaryColor;
+               border-color: $color12;
+          }
+     }
+     &.effect6{
+          background: transparent;
+          border: 2px solid $color12;
+          @extend %radius3;
+          color: $color12;
+          i{
+               padding-left: 5px;
+               font-size: 17px;
+          }
+          &:hover{
+               background: $color12;
+               color: $whiteColor;
+          }
+     }
+     &.effect7{
+          background: $color14;
+          border: 2px solid transparent;
+          @extend %radius3;
+          color: $whiteColor;
+          &:hover{
+               background: $whiteColor;
+               color: $primaryColor;
+               border-color: $color14;
+          }
+     }
+     &.effect8{
+          background: transparent;
+          border: 2px solid $color14;
+          @extend %radius3;
+          color: $color14;
+          i{
+               padding-left: 5px;
+               font-size: 17px;
+          }
+          &:hover{
+               background: $color14;
+               color: $whiteColor;
+          }
+     }
+     &.effect9{
+          background: $color16;
+          border: 2px solid transparent;
+          @extend %radius3;
+          color: $whiteColor;
+          &:hover{
+               background: $whiteColor;
+               color: $color16;
+               border-color: $color16;
+          }
+     }
+     &.effect10{
+          background: transparent;
+          border: 2px solid $color16;
+          @extend %radius3;
+          color: $color16;
+          i{
+               padding-left: 5px;
+               font-size: 17px;
+          }
+          &:hover{
+               background: $color16;
+               color: $whiteColor;
+          }
+     }
+     &.effect11{
+          background: $whiteColor;
+          border: 2px solid $whiteColor;
+          @extend %radius30;
+          color: $primaryColor;
+          i{
+               padding-left: 5px;
+               font-size: 17px;
+          }
+          &:hover{
+               background: $primaryColor;
+               color: $whiteColor;
+               border-color: $primaryColor;
+          }
+     }
+     &.effect12{
+          background: transparent;
+          border: 2px solid $color17;
+          @extend %radius30;
+          color: $primaryColor;
+          i{
+               padding-left: 5px;
+               font-size: 17px;
+          }
+          &:hover{
+               background: $primaryColor;
+               color: $whiteColor;
+               border-color: $primaryColor;
+          }
+     }
+     &.effect-gradient1{
+          background: $gradient1;
+          border: 2px solid transparent;
+          @extend %radius30;
+          color: $whiteColor;
+          
+     }
+     &.effect-gradient4{
+          background: $gradient4;
+          border: 2px solid transparent;
+          @extend %radius30;
+          color: $whiteColor;
+          &:hover{
+               background: $color17;
+               color: $whiteColor
+          }
+     }
+}
+
+.btn-one{
+     border: 2px solid $secondaryColor;
+     color: $primaryColor;
+     @extend %radius30;
+}
+
+
+.btn-group{
+     a{
+          &:last-child{
+               margin-left: 15px;
+               
+          }
+     }
+}
+
+
+
+a.up-btn {
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     height: 60px;
+     width: 60px;
+     text-align: center;
+     line-height: 60px;
+     background: $color12;
+     border-radius: 5px;
+     border: 1.5px solid $whiteColor;
+     color: $whiteColor;
+     font-size: 22px;
+     z-index: 99;
+ }
+
+ .apps-btns{
+      a{
+           display: inline-block;
+           &:last-child{
+                margin-left: 15px;
+                @media #{$xs}{
+                     margin-left: 0;
+                     margin-top:15px;
+                }
+           }
+           position: relative;
+           .app-qr{
+               position: absolute;
+               left: 0;
+               top: 65px;
+               visibility: hidden;
+               opacity: 0;
+               z-index: 2;
+               @include transition(.3s);
+           }
+           &:hover{
+               .app-qr{
+               visibility: visible;
+               opacity: 3;
+               top: 60px;
+               @include transition(.3s);
+               }
+           }
+      }
+ }

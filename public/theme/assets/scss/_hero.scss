@@ -1,0 +1,231 @@
+.hero-area {
+     height: 900px;
+     position: relative;
+     @media #{$xxxl}{
+        height: 100%;
+     }
+    @media #{$lp}{
+        height: 800px;
+    }
+
+    @media #{$lg}{
+        height: auto;
+        padding: 80px 0 0;
+    }
+     @media #{$xm}{
+        height: auto;
+        padding: 100px 0  0;
+        overflow-x: hidden;
+    }
+ }
+
+.inner-welcome{
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+ .soft-bg {
+     position: absolute;
+     right: -301px;
+     width: 70%;
+     z-index: 1;
+     height: 850px;
+    @media #{$xxxl}{
+        top: 10%;
+    }
+     img {
+          width: 100%;
+      }
+      @media #{$lg} {
+        right: -200px;
+        width: 80%;
+        top: 0;
+      }
+      @media #{$xm}{
+        position: relative;
+        right: auto;
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+      }
+ }
+
+ .hero-shape {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     z-index: -1;
+     img{
+         max-width: 100%;
+     }
+     @media #{$xm} {
+         bottom: 30%;
+     }
+ }
+
+
+ .hero-shape2 {
+     position: absolute;
+     top: 0;
+     right: 0;
+     width: 100%;
+     z-index: -1;
+     text-align: right;
+     @media #{$xm}{
+         display: none;
+     }
+     @media #{$lg}{
+        display: none;
+     }
+ }
+
+
+.bread-crumb{
+    .breadcrumb{
+        justify-content: center;
+    }
+}
+
+
+.hero-soft2 {
+    margin-right: -15%;
+    @media #{$xl}{
+        max-height:800px;
+    }
+    img{
+        @media #{$xl}{
+        max-height: 800px;
+    }
+    }
+    @media #{$lp}{
+        margin-right: 0;
+    }
+    img {
+        width: 100%;
+    }
+    &.app-screen{
+        @media #{$xl}{
+            max-height:700px;
+
+        }
+        @media #{$xm}{
+            max-height: 500px;
+        }
+    }
+    @media #{$xm}{
+        margin-right: 0;
+        margin-top: 60px;
+    }
+}
+
+
+
+.hero2-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.hero-3-shape {
+    position: absolute;
+    top: -5%;
+    right: -10%;
+    z-index: -1;
+}
+
+.theme5{
+    .hero-3-shape {
+        position: absolute;
+        top: -25%;
+        right: -10%;
+        z-index: -1;
+    }
+}
+
+.theme6 {
+    .hero-3-shape {
+        position: absolute;
+        top: -42%;
+        right: -19%;
+        z-index: -1;
+    }
+}
+
+
+.inner-welcome{
+    overflow: hidden;
+    .inner-1-bg {
+        height: 500px;
+        width: 35%;
+        left: -15%;
+        bottom: -20%;
+        z-index: -1;
+        position: absolute;
+        img {
+            max-height: 100%;
+        }
+    }
+    .inner-2-bg {
+        height: 500px;
+        width: 35%;
+        right: -7%;
+        top: -10%;
+        z-index: -1;
+        position: absolute;
+        img {
+            max-height: 100%;
+        }
+    }
+}
+
+.white-inner{
+    .bread-crumb{
+        .breadcrumb{
+            a{
+                color: $color17;
+            }
+        }
+    }
+    .breadcrumb-item{
+        &::before{
+            color: $whiteColor;
+        }
+    }
+    .breadcrumb-item.active{
+        color: $whiteColor;
+    }
+    .title{
+        h1{
+            color: $whiteColor;
+        }
+    }
+
+}
+
+
+.main-watch{
+    @media #{$xl}{
+        text-align: right;
+    }
+}
+
+.hero7{
+  height: 1000px;
+  @media #{$lp}{
+      height: 800px;
+  }
+
+  @media #{$lg}{
+      height: auto;
+      padding: 80px 0 0;
+  }
+   @media #{$xm}{
+      height: auto;
+      padding: 100px 0  0;
+      overflow-x: hidden;
+  }
+}

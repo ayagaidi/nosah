@@ -1,0 +1,149 @@
+.feature-awesome {
+     position: relative;
+     z-index: 2;
+ }
+
+ .feature-bg-left {
+     position: absolute;
+     left: -200px;
+     top: 250px;
+ }
+
+
+ .feature-box {
+     @include transition(.3s);
+     @include transform(translateY(0));
+     .feature-icon {
+          display: inline-block;
+          margin-bottom: 25px;
+          max-width: 55px;
+      }
+     margin-bottom: 20px;
+     padding: 25px;
+     border-radius: 5px;
+     @include transition(.3s);
+     &:hover {
+          background: #fff;
+          @include transition(.3s);
+          @include transform(translateY(-10px));
+      }
+      p {
+          margin-bottom: 0;
+      }
+      h3 {
+          font-size: 25px;
+          font-weight: 700;
+          margin-bottom: 15px;
+      }
+ }
+
+
+.feature-2-1-bg {
+    position: relative;
+    z-index: 2;
+    &::after {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        background: url(../../assets/img/bg/feature2bg2-1.svg) no-repeat;
+        left: -35%;
+        bottom: 60px;
+        z-index: -1;
+        background-position: bottom right;
+        background-size: contain;
+    }
+}
+
+.feature-2-2-bg {
+    position: relative;
+    z-index: 2;
+    &::after {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        background: url(../../assets/img/bg/feature2bg2-2.svg) no-repeat;
+        right: -35%;
+        top: 0;
+        z-index: -1;
+        background-position: bottom left;
+        background-size: contain;
+    }
+}
+
+
+.feature-3-1-bg {
+    position: relative;
+    z-index: 2;
+    &::after {
+        position: absolute;
+        content: "";
+        height: 1000px;
+        width: 1000px;
+        background: url(../../assets/img/bg/3shape2.svg) no-repeat;
+        left: -40%;
+        bottom: -91%;
+        z-index: -1;
+        background-position: bottom right;
+        background-size: contain;
+    }
+}
+
+.feature-3-2-bg {
+    position: relative;
+    z-index: 2;
+    &::after {
+        position: absolute;
+        content: "";
+        height: 1000px;
+        width: 1000px;
+        background: url(../../assets/img/bg/3shape1.svg) no-repeat;
+        right: -46%;
+        top: -42%;
+        z-index: -1;
+        background-position: bottom left;
+        background-size: contain;
+    }
+}
+
+.feature-img{
+    @media #{$xm}{
+        margin-top: 60px;
+    }
+
+}
+
+
+.theme5, .theme6{
+
+    .feature-3-1-bg {
+        &::after {
+            bottom: 0%;
+        }
+    }
+
+    .feature-3-2-bg {
+
+        &::after {
+            right: -46%;
+            top: -15%;
+
+        }
+    }
+
+}
+
+
+
+.watch-feture-img-list {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+img.feature-watch-bg {
+    position: absolute;
+    left: 0;
+    top: 70px;
+}

@@ -1,0 +1,108 @@
+.footer{
+     padding: 110px 0 70px;
+}
+
+.footer-widget {
+     h3 {
+          font-size: 20px;
+          font-weight: 700;
+          margin-bottom: 20px;
+      }
+      ul{
+           li{
+                margin-bottom: 5px;
+                &:last-child{
+                     margin-bottom: 0;
+                }
+                a{
+                     color: $bodyColor;
+                     @include transition(.3s);
+                     &:hover{
+                          color: $secondaryColor;
+                          @include transition(.3s);
+                          padding-left: 3px;
+                     }
+                }
+           }
+      }
+}
+
+.footer2{
+     .footer-widget {
+          ul{
+               li{
+                    a{
+                         &:hover{
+                              color: $color11;
+                         }
+                    }
+               }
+          }
+     }
+}
+
+
+.footer3{
+     .footer-widget {
+          ul{
+               li{
+                    a{
+                         &:hover{
+                              color: $color12;
+                         }
+                    }
+               }
+          }
+     }
+}
+
+
+.footer5{
+     .footer-widget {
+          ul{
+               li{
+                    a{
+                         &:hover{
+                              color: $color14;
+                         }
+                    }
+               }
+          }
+     }
+}
+
+
+.footer6{
+     .footer-widget {
+          ul{
+               li{
+                    a{
+                         &:hover{
+                              color: $color16;
+                         }
+                    }
+               }
+          }
+     }
+}
+
+.white-footer{
+     p{
+          color: $whiteColor;
+     }
+     .footer-widget {
+          h3 {
+               color: $whiteColor;
+           }
+           ul{
+                li{
+                     a{
+                          color: $whiteColor;
+                          &:hover{
+                               color: $whiteColor;
+                          }
+                     }
+                }
+           }
+     }
+}

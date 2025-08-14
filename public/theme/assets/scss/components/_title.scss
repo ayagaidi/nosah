@@ -1,0 +1,25 @@
+.title{
+     h1{
+          font-size: 60px;
+          line-height: 66px;
+          font-weight: 700;
+          @media #{$xs}{
+               font-size: 50px;
+               line-height: 60px;
+          }
+          @media #{$xss}{
+               font-size: 40px;
+               line-height: 50px;
+          }
+     }
+     p{
+          font-size: 19px;
+          line-height: 32px;
+          margin: 20px 0 0 0;
+          width: 80%;
+          @media #{$xm}{
+               width: 100%;
+          }
+     }
+}
+

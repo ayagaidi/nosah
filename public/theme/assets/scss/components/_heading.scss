@@ -1,0 +1,20 @@
+.heading{
+     h2{
+          font-size: 45px;
+          line-height: 55px;
+          font-weight: 700;
+          color: $primaryColor;
+          @media #{$xm}{
+               font-size: 32px;
+                line-height: 45px;
+          }
+     }
+     p{
+          margin: 20px 0 0 0;
+     }
+     &.heading-white{
+          h2, p{
+               color: $whiteColor;
+          }
+     }
+}

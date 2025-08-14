@@ -1,0 +1,33 @@
+.app7bg {
+     position: relative;
+     z-index: 2;
+     padding:90px 0;
+     margin:100px 0;
+     @media #{$xs}{
+        text-align: center;
+        margin:0 0;
+     }
+ }
+
+ .app7bg:before {
+     position: absolute;
+     content: "";
+     height: 100%;
+     width: 80%;
+     background: $gradient4;
+     left: 0;
+     top: 0;
+     z-index: -1;
+     @media #{$xs}{
+        width: 100%;
+     }
+ }
+
+ .apps7-img {
+     position: absolute;
+     top: -60%;
+     right: -10%;
+     @media #{$xs}{
+        display: none;
+     }
+ }

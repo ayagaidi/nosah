@@ -1,0 +1,113 @@
+.header-area{
+    padding: 15px 0;
+    position: relative;
+    z-index: 2;
+}
+
+.header_sticky{
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+       transform: translate3d(0,0,0);
+       z-index: 111;
+       -webkit-animation-name: fade-in-down;
+       animation-name: fade-in-down;
+       -webkit-animation-duration: 1s;
+       animation-duration: 1s;
+       -webkit-animation-fill-mode: forwards;
+       animation-fill-mode: forwards;
+       background-color:#fff;
+     -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+     transition: all 0.3s ease;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+     z-index: 99;
+   }
+
+   @-webkit-keyframes fade-in-down {
+     0% {
+       opacity: 0;
+       -webkit-transform: translate3d(0,-50px,0);
+       transform: translate3d(0,-50px,0);
+     }
+     100% {
+       opacity: 1;
+       -webkit-transform: none;
+       transform: none;
+     }
+   }
+   @keyframes fade-in-down {
+     0% {
+
+       -webkit-transform: translate3d(0,-50px,0);
+       transform: translate3d(0,-50px,0);
+     }
+     100% {
+       opacity: 1;
+       -webkit-transform: none;
+       transform: none;
+     }
+   }
+   .fade-in-down {
+     -webkit-animation-name: fade-in-down;
+     animation-name: fade-in-down;
+     -webkit-animation-duration: 1s;
+     animation-duration: 1s;
+     -webkit-animation-fill-mode: forwards;
+     animation-fill-mode: forwards;
+   }
+
+
+   .header-white{
+      .main-menu{
+        ul{
+          li{
+            a{
+              color: $whiteColor;
+              @media #{$xm}{
+                color: $primaryColor;
+              }
+            }
+            ul > li{
+              a{
+                color: $primaryColor;
+                &:hover{
+                  color: $secondaryColor;
+                }
+              }
+            }
+          }
+        }
+      }
+      &.header_sticky{
+        &.header4{
+          background: $secondaryColor;
+          .main-menu{
+            ul{
+              li{
+                a{
+                  &:hover{
+                    color: $color12;
+                  }
+                }
+              }
+            }
+          }
+        }
+        &.header7{
+          background: $color19;
+          .main-menu{
+            ul{
+              li{
+                a{
+                  &:hover{
+                    color: $secondaryColor;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+  }

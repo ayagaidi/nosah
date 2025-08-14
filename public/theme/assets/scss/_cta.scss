@@ -1,0 +1,26 @@
+.video-area {
+     position: relative;
+     z-index: 2;
+     padding: 100px 0 200px;
+ }
+ 
+ img.video-bg {
+     position: absolute;
+     bottom: 0;
+     left: 50%;
+     width: 400px;
+     margin-left: -200px;
+     z-index: -1;
+ }
+
+ a.video-video-btn {
+    color: $primaryColor;
+    background: $whiteColor;
+    height: 70px;
+    display: inline-block;
+    width: 70px;
+    line-height: 70px;
+    font-size: 22px;
+    border-radius: 50px;
+    margin-top: 12px;
+}

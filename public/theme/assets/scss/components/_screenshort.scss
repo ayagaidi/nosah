@@ -1,0 +1,36 @@
+.single-screen {
+     img {
+          width: 100%;
+          height: 570px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          margin: 40px;
+      }
+}
+
+
+.screenshort7{
+     margin-bottom: 160px;
+     padding-top: 150px;
+     background: $gradient4;
+     .owl-nav {
+          position: absolute;
+          width: 100%;
+          text-align: center;
+          bottom: -50px;
+      }
+      
+      .owl-nav button {
+          margin: 0 6px;
+      }
+      
+      .owl-nav button i {
+          font-size: 34px;
+
+      }
+      
+      .owl-nav button i:hover {
+          color: #AC79F0;
+      }
+}
+
+

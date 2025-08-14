@@ -1,0 +1,117 @@
+.theme-rtl{
+
+     .search-from {
+          button.seach-btn{
+               right: auto;
+               left: 0;
+          }
+     }
+
+     .blog-date{
+          left: auto;
+          right: 0;
+     }
+
+     .blog-content{
+          .author {
+               padding-right: 75px;
+               .author-img {
+                    left: auto;
+                    right: 0;
+                }
+           }
+     }
+
+     .single-blog {
+          ul {
+               li.read-circle {
+                    padding-right: 16px;
+                    margin-right: 10px;
+                    &:before {
+                         left: auto;
+                         right: 0;
+
+                     }
+                }
+          }
+     }
+
+     .single-comment {
+          padding-right: 150px;
+          .comment-img {
+               left: auto;
+               right: 0;
+           }
+           a.coment-replay {
+               right: auto;
+               left: 0;
+           }
+      }
+      .children-comment {
+          margin-right: 30px;
+      }
+
+      .comment-form{
+          input, textarea{
+               text-align: right;
+          }
+          p.input-field{
+               &:after{
+                    right:auto;
+                    left:5px
+               }
+          }
+      }
+      .single-recent {
+           padding-left: 0;
+          padding-right: 140px;
+          .recent-post-thumbnails{
+               left: auto;
+               right: 0;
+          }
+      }
+      .single-blog-tags{
+           .socials-left{
+                float: left;
+           }
+      }
+      .single-contact{
+           padding-left: 0;
+           padding-right: 60px;
+           .contact-icon{
+                left: auto;
+                right: 0;
+           }
+      }
+
+      .btn-group {
+           a{
+                &:last-child {
+                    margin-right: 15px;
+                    margin-left: 0;
+                    @media #{$xm}{
+                         margin-right: 0;
+                         margin-top: 10px;
+                    }
+                }
+           }
+      }
+
+
+      ul.dropdown-parrent li a i{
+          float: left;
+      }
+      li.dropdown ul.dropdown-parrent{
+           text-align: right;
+      }
+
+      li.has-parrent-dropdown ul.has-dropdown-childern{
+           left: auto;
+           right: 100%;
+      }
+      .single-mega {
+          text-align: right;
+          padding-right: 40px;
+      }
+     
+}

@@ -1,0 +1,135 @@
+.demo{
+     h1{
+          font-size: 250px;
+          @media #{$xm}{
+               font-size: 50px;
+          }
+     }
+     p{
+          font-size: 20px;
+          @media #{$xm}{
+               font-size: 16px;
+          }
+     }
+}
+
+
+.single-demo{
+     text-align: center;
+     @include transition(.3s);
+     margin-bottom: 40px;
+     &:hover{
+          a.demotext {
+               text-decoration: underline;
+               @include transition(.3s);
+          }
+     }
+     a.demotext {
+          font-size: 24px;
+          color: $primaryColor;
+          font-family: $primaryFont;
+          margin-top: 20px;
+          display: block;
+          font-weight: 700;
+      }
+}
+
+
+ .demo-img  {
+     text-align: center;
+     position: relative;
+     z-index: 1;
+     box-shadow: 0 3px 20px #ddd;
+     @include transition(.3s);
+     overflow: hidden;
+     border-radius: 10px;
+     height: 600px;
+
+     img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+     }
+     a.preview-btn {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          display: inline-block;
+          padding: 13px 43px;
+          background: $secondaryColor;
+          border-radius: 30px;
+          font-family: $primaryFont;
+          color: $whiteColor;
+          font-size: 20px;
+          margin-top: -27px;
+          margin-left: -80px;
+          z-index: 3;
+          @include transition(.3s);
+          @include transform(scale(0));
+     
+      }
+     &:after{
+          position: absolute;
+          left: 0;
+          top: 0;
+          content: "";
+          height: 100%;
+          width: 100%;
+          background: $primaryColor;
+          z-index: 2;
+          @include transition(.3s);
+          @include transform(scale(1.3));
+          opacity: 0;
+     }
+     &:hover{
+          a.preview-btn{
+               @include transition(.3s);
+               @include transform(scale(1));
+          }
+          &:after{
+               @include transition(.3s);
+               @include transform(scale(1));
+               opacity: .5;
+          }
+     }
+     &.comming{
+          max-height: 500px;
+          img{
+               height: 100%;
+               width: 100%;
+          }
+     }
+ }
+
+
+ .single-demo-feature {
+     padding: 30px;
+     box-shadow: 0 3px 30px #ddd;
+     border-radius: 5px;
+     margin-bottom: 30px;
+     border: 2px solid transparent;
+     @include transition(.3s);
+     &:hover{
+          border: 2px solid $secondaryColor;
+     @include transition(.3s);
+     }
+     h3 {
+          font-size: 18px;
+          margin-bottom: 0;
+          span {
+               color: $secondaryColor;
+               font-weight: 700;
+           }
+          
+      }
+     .single-demo-feature-icon {
+          font-size: 40px;
+          margin-bottom: 20px;
+          border: 2px solid $secondaryColor;
+          padding: 20px;
+          display: inline-block;
+          border-radius: 5px;
+      }
+ }
+
+ 

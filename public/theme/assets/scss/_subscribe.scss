@@ -1,0 +1,150 @@
+.subcribe-form {
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     input {
+        width: 65%;
+        border-radius: 30px;
+        padding: 14px 20px;
+        border: 2px solid $primaryColor;
+        @media #{$xs}{
+            width: 100%;
+        }
+    }
+   
+     @media #{$xs}{
+        display: block;
+        text-align: center;
+    }
+ }
+
+
+ .subscribe3{
+    .subcribe-form{
+        input {
+        border-radius: 3px;
+        border: 2px solid $whiteColor;
+        background: $color12;
+        color: $whiteColor;
+        &::placeholder{
+            color: $whiteColor;
+        }
+        &:focus{
+            outline: none;
+        }
+    }
+    }
+ }
+
+ .subscribe5{
+    .subcribe-form{
+        input {
+        border-radius: 3px;
+        border: 2px solid $whiteColor;
+        background: $color14;
+        color: $whiteColor;
+        &::placeholder{
+            color: $whiteColor;
+        }
+        &:focus{
+            outline: none;
+        }
+    }
+    }
+ }
+
+ .subscribe6{
+    .subcribe-form{
+        input {
+        border-radius: 3px;
+        border: 2px solid $whiteColor;
+        background: $color16;
+        color: $whiteColor;
+        &::placeholder{
+            color: $whiteColor;
+        }
+        &:focus{
+            outline: none;
+        }
+    }
+    }
+ }
+
+ 
+ button.submit-btn {
+     width: 30%;
+     background: $secondaryColor;
+     border: 2px solid  $secondaryColor;
+     color: $whiteColor;
+     border-radius: 30px;
+     padding: 14px;
+     @media #{$xs}{
+        width: 100%;
+        margin-top: 10px;
+    }
+    &.submit-btn2{
+        background: $whiteColor;
+        color: $primaryColor;
+        border-color: $color11;
+    }
+    &.submit-btn3{
+        background: $whiteColor;
+        color: $color12;
+        border-color: $color12;
+        border-radius: 5px;
+        @include transition (.3s);
+    }
+    &.submit-btn4{
+        background: $whiteColor;
+        color: $primaryColor;
+        border-color: $color12;
+        border-radius: 3px;
+        @include transition (.3s);
+        &:hover{
+            background: $color12;;
+            @include transition (.3s);
+            color: $whiteColor;
+        }
+    }
+    &.submit-btn5{
+        background: $whiteColor;
+        color: $primaryColor;
+        border-color: $color14;
+        border-radius: 3px;
+        @include transition (.3s);
+        &:hover{
+            background: $whiteColor;;
+            @include transition (.3s);
+            color: $primaryColor;
+        }
+    }
+    &.submit-btn6{
+        background: $whiteColor;
+        color: $primaryColor;
+        border-color: $color16;
+        border-radius: 3px;
+        @include transition (.3s);
+        &:hover{
+            background: $whiteColor;;
+            @include transition (.3s);
+            color: $primaryColor;
+        }
+    }
+ }
+ 
+ .subscribe{
+    h2 {
+        font-size: 38px;
+        font-weight: 700;
+        @media #{$xs}{
+           margin-bottom: 30px;
+           text-align: center;
+       }
+    }
+   
+ }
+ 
+ .subscribe-area{
+      padding: 70px 0;
+ }

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+$primaryFont: 'Cairo',
+sans-serif;
+$secondaryFont: 'Rubik',
+sans-serif;
+$whiteColor: #ffffff;
+$bodyColor: #767C89;
+$primaryColor: #1a9f99;
+$secondaryColor: #5A78F1;
+$grayColor: #F7FAFF;
+$color11: #EC5E09;
+$color12: #73A22A;
+$color13: #DFFD9069;
+$color14: #15B6F2;
+$color15: #fafcff;
+$color16: #156AF2;
+$color17: #4C0398;
+$color18: #AC78F0;
+$color19: rgba(239,
+129,
+147,
+1);
+$color20: #F89A2D;
+$color21: #ef8193;
+$gradient1: linear-gradient(to right,
+#F4CA27,
+#EB5406);
+$gradient2: linear-gradient(to right top,
+#73A22A,
+#FF3F45);
+$gradient3: linear-gradient(to right top,
+#41A0FF,
+#303AB8);
+$gradient4: linear-gradient(149deg,
+rgba(239, 129, 147, 1) 0%,
+rgba(250, 167, 111, 1) 100%);
+// Responsive Variables
+$lp: 'only screen and (min-width: 1200px) and (max-width: 1600px)';
+$xl: 'only screen and (min-width: 1200px)';
+$xxxl: 'only screen and (min-width: 1601px)';
+$lg: 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$xm:'(max-width: 991px)';
+$xs:'(max-width: 767px)';
+$xss:'(max-width: 400px)';
+$sm: 'only screen and (min-width: 576px) and (max-width: 767px)';

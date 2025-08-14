@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC,KAAK,CAAC;EAClB,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,CAAC;CACnB;;AAED,AAAA,eAAe,CAAC,KAAK,CAAC;EACpB,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,GAAG;CAClB;;AAED,AACE,aADW,CACX,EAAE,CAAA;EACA,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,aAAa,EAAE,IAAI;CACpB;;AAGH,AACE,WADS,CACT,EAAE,CAAA;EACA,SAAS,EAAE,IAAI;CAEhB",
+    "sources": [
+        "../scss/components/authentication.scss"
+    ],
+    "names": [],
+    "file": "authentication.css"
+}
