@@ -5,16 +5,16 @@
 @section('content')
 <style>
     .fc .fc-button {
-        background-color: #73a22a !important;
+        background-color: #0F3440 !important;
         color: white !important;
     }
     .fc .fc-button:hover {
-        background-color: #73a22a !important;
+        background-color: #0F3440 !important;
     }
     .fc-timegrid-event-harness-inset .fc-timegrid-event,
     .fc-timegrid-event.fc-event-mirror,
     .fc-timegrid-more-link {
-        background-color: #16a5b9 !important;
+        background-color: #112132 !important;
         color: white !important;
         height: fit-content !important;
     }
@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         appointment_type: @json($appointment->appointment_type ?? '-'),
                         time: @json(\Carbon\Carbon::parse($appointment->scheduled_at)->subHours(2)->setTimezone('Africa/Tripoli')->format("h:i A"))
                     },
-                    color: '#16a5b9',
+                    color: '#112132',
                     textColor: 'white'
                 },
             @endforeach

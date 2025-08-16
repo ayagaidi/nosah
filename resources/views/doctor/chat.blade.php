@@ -10,14 +10,14 @@
         $patient = Patient::find($patientId);
     @endphp
 
-    <h2 class="text-center mb-4" style="color: #16a5b9;">محادثة مع {{ $patient ? $patient->full_name : 'المريض' }}</h2>
+    <h2 class="text-center mb-4" style="color: #112132;">محادثة مع {{ $patient ? $patient->full_name : 'المريض' }}</h2>
 
     <div id="chat-box"
         style="border: 1px solid #ccc; height: 400px; overflow-y: scroll; padding: 1rem; background: #f9f9f9;">
         @foreach ($messages as $message)
             <div style="margin-bottom: 10px; text-align: {{ $message->sender_type == 'doctor' ? 'right' : 'left' }};">
                 <div
-                    style="display: inline-block; background-color: {{ $message->sender_type == 'doctor' ? '#73a22a' : '#16a5b9' }}; color: white; padding: 8px 12px; border-radius: 15px; max-width: 70%;">
+                    style="display: inline-block; background-color: {{ $message->sender_type == 'doctor' ? '#0F3440' : '#112132' }}; color: white; padding: 8px 12px; border-radius: 15px; max-width: 70%;">
                     @if($message->message)
                         <div>{{ $message->message }}</div>
                     @endif
@@ -44,7 +44,7 @@
         <input type="file" id="image-input" accept="image/*" style="max-width: 150px;">
 
         <button type="submit" class="btn btn-primary"
-            style="background-color: #16a5b9; border-color: #16a5b9;">إرسال</button>
+            style="background-color: #112132; border-color: #112132;">إرسال</button>
     </form>
 </div>
 
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 const bubble = document.createElement('div');
                 bubble.style.display = 'inline-block';
-                bubble.style.backgroundColor = '#73a22a';
+                bubble.style.backgroundColor = '#0F3440';
                 bubble.style.color = 'white';
                 bubble.style.padding = '8px 12px';
                 bubble.style.borderRadius = '15px';
@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         const bubble = document.createElement('div');
                         bubble.style.display = 'inline-block';
-                        bubble.style.backgroundColor = msg.sender_type === 'doctor' ? '#73a22a' : '#16a5b9';
+                        bubble.style.backgroundColor = msg.sender_type === 'doctor' ? '#0F3440' : '#112132';
                         bubble.style.color = 'white';
                         bubble.style.padding = '8px 12px';
                         bubble.style.borderRadius = '15px';

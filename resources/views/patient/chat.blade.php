@@ -27,7 +27,7 @@
     <div id="chat-box" style="border: 1px solid #ccc; height: 400px; overflow-y: auto; padding: 1rem; background: #f9f9f9; border-radius: 8px;">
         @foreach($messages as $message)
             <div style="margin-bottom: 10px; text-align: {{ $message->sender_type == 'patient' ? 'right' : 'left' }};">
-                <div style="display: inline-block; background-color: {{ $message->sender_type == 'patient' ? '#73a22a' : '#16a5b9' }}; color: white; padding: 8px 12px; border-radius: 15px; max-width: 70%;">
+                <div style="display: inline-block; background-color: {{ $message->sender_type == 'patient' ? '#0F3440' : '#112132' }}; color: white; padding: 8px 12px; border-radius: 15px; max-width: 70%;">
                     @if($message->type === 'image' || $message->type === 'text_image')
                         <img src="{{ $message->image }}" alt="صورة" style="max-width: 100%; border-radius: 10px;"><br>
                     @endif
@@ -50,7 +50,7 @@
         <div class="input-group">
             <input type="text" id="message-input" class="form-control" placeholder="اكتب رسالتك هنا..." autocomplete="off">
             <input type="file" id="image-input" name="image" accept="image/*" style="margin-left: 10px;">
-            <button type="submit" class="btn btn-primary" style="background-color: #16a5b9; border-color: #16a5b9;">إرسال</button>
+            <button type="submit" class="btn btn-primary" style="background-color: #112132; border-color: #112132;">إرسال</button>
         </div>
     </form>
 </div>
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const bubble = document.createElement('div');
         bubble.style.display = 'inline-block';
-        bubble.style.backgroundColor = message.sender_type === 'patient' ? '#73a22a' : '#16a5b9';
+        bubble.style.backgroundColor = message.sender_type === 'patient' ? '#0F3440' : '#112132';
         bubble.style.color = 'white';
         bubble.style.padding = '8px 12px';
         bubble.style.borderRadius = '15px';

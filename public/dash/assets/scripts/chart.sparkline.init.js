@@ -43,7 +43,7 @@
                 height: '35',
                 width: '80',
                 barWidth: '5',
-                barColor: '#16a5b9'
+                barColor: '#112132'
             });
             $('#traffic-sparkline-chart-3').sparkline([5, 5, 6, 6, 7, 7, 6, 6, 7, 7, 8, 8, 7, 7, 8, 8, 9, 9, 8, 8, 9, 9, 10, 10, ], {
                 type: 'discrete',

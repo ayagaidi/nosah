@@ -141,7 +141,7 @@ $(function() {
 
     $('#treeview1').treeview({
         data: defaultData,
-        selectedBackColor: "#16a5b9",
+        selectedBackColor: "#112132",
         onhoverColor: "rgba(0, 0, 0, 0.05)",
         expandIcon: 'fa fa-plus',
         collapseIcon: 'fa fa-minus',
@@ -151,7 +151,7 @@ $(function() {
     $('#treeview2').treeview({
         levels: 1,
         data: defaultData,
-        selectedBackColor: "#16a5b9",
+        selectedBackColor: "#112132",
         onhoverColor: "rgba(0, 0, 0, 0.05)",
         expandIcon: 'fa fa-plus',
         collapseIcon: 'fa fa-minus',
@@ -161,7 +161,7 @@ $(function() {
     $('#treeview3').treeview({
         levels: 99,
         data: defaultData,
-        selectedBackColor: "#16a5b9",
+        selectedBackColor: "#112132",
         onhoverColor: "rgba(0, 0, 0, 0.05)",
         expandIcon: 'fa fa-plus',
         collapseIcon: 'fa fa-minus',
@@ -169,9 +169,9 @@ $(function() {
     });
 
     $('#treeview4').treeview({
-        color: "#16a5b9",
+        color: "#112132",
         data: defaultData,
-        selectedBackColor: "#16a5b9",
+        selectedBackColor: "#112132",
         onhoverColor: "rgba(0, 0, 0, 0.05)",
         expandIcon: 'fa fa-plus',
         collapseIcon: 'fa fa-minus',
@@ -179,31 +179,31 @@ $(function() {
     });
 
     $('#treeview5').treeview({
-        color: "#16a5b9",
+        color: "#112132",
         expandIcon: 'fa fa-chevron-right',
         collapseIcon: 'fa fa-chevron-down',
         nodeIcon: 'fa fa-bookmark',
         data: defaultData,
-        selectedBackColor: "#16a5b9",
+        selectedBackColor: "#112132",
         onhoverColor: "rgba(0, 0, 0, 0.05)",
     });
 
     $('#treeview6').treeview({
-        color: "#16a5b9",
+        color: "#112132",
         expandIcon: "fa fa-square",
         collapseIcon: "fa fa-square-o",
         nodeIcon: "fa fa-user",
         showTags: true,
         data: defaultData,
-        selectedBackColor: "#16a5b9",
+        selectedBackColor: "#112132",
         onhoverColor: "rgba(0, 0, 0, 0.05)",
     });
 
     $('#treeview10').treeview({
-        color: "#16a5b9",
+        color: "#112132",
         enableLinks: true,
         data: defaultData,
-        selectedBackColor: "#16a5b9",
+        selectedBackColor: "#112132",
         onhoverColor: "rgba(0, 0, 0, 0.05)",
         expandIcon: 'fa fa-plus',
         collapseIcon: 'fa fa-minus',
@@ -214,7 +214,7 @@ $(function() {
 
     var $searchableTree = $('#treeview-searchable').treeview({
         data: defaultData,
-        selectedBackColor: "#16a5b9",
+        selectedBackColor: "#112132",
         onhoverColor: "rgba(0, 0, 0, 0.05)",
         expandIcon: 'fa fa-plus',
         collapseIcon: 'fa fa-minus',

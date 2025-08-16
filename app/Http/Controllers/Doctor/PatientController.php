@@ -140,10 +140,10 @@ class PatientController extends Controller
 
             // إرسال بريد إلكتروني للمريض
             Mail::raw(
-                "مرحباً {$patient->full_name},\n\nتم تسجيلك في نظام Doctor Diet.\n\nبيانات الدخول:\nالبريد الإلكتروني: {$patient->email}\nكلمة المرور: {$randomPassword}\nرقم المريض: {$patient->patient_number}\n\nيرجى تغيير كلمة المرور بعد تسجيل الدخول.",
+                "مرحباً {$patient->full_name},\n\nتم تسجيلك في نظام nosah.\n\nبيانات الدخول:\nالبريد الإلكتروني: {$patient->email}\nكلمة المرور: {$randomPassword}\nرقم المريض: {$patient->patient_number}\n\nيرجى تغيير كلمة المرور بعد تسجيل الدخول.",
                 function($message) use ($patient) {
                     $message->to($patient->email)
-                            ->subject('بيانات تسجيل الدخول لنظام Doctor Diet');
+                            ->subject('بيانات تسجيل الدخول لنظام nosah');
                 }
             );
 

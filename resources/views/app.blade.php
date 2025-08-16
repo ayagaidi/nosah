@@ -12,7 +12,7 @@
   <link rel="icon" type="image/png" sizes="56x56" href="{{ asset('logo.ico') }}">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Doctor Deit-@yield('title')</title>
+    <title>Nosah-@yield('title')</title>
 
   <!--====== Favicon Icons css ======-->
   <!--====== FontAwesome Icons css ======-->

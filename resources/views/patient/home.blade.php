@@ -10,7 +10,7 @@
     .our-offer-items .item {
         background-color: #f9f9f9;
         /* Light gray background */
-        border: 1px solid #1a9f99;
+        border: 1px solid #09c8ad;
         /* Light border */
         border-radius: 8px;
         /* Rounded corners */
@@ -34,7 +34,7 @@
     .our-offer-items .item i {
         font-size: 36px;
         /* Icon size */
-        color: #1a9f99;
+        color: #09c8ad;
         /* Icon color, adjust as needed */
         margin-bottom: 15px;
         /* Space below the icon */
@@ -59,7 +59,7 @@
     }
 
     .our-offer-items .item a {
-        color: #1a9f99;
+        color: #09c8ad;
         /* Link color */
         font-weight: bold;
         /* Bold link text */

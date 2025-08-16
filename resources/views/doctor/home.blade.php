@@ -76,22 +76,22 @@
             <div class="box-content">
                 <div class="col-md-12">
                     <div class="col-md-4 col-sm-12 mb-4">
-                        <a style="color: #acbf78;" href="{{ route('doctor.patients.show', encrypt($patient->id)) }}" class="btn-3d">
+                        <a style="color: #06c4a9;" href="{{ route('doctor.patients.show', encrypt($patient->id)) }}" class="btn-3d">
                             <img class="icon" src="{{ asset('info.png') }}" alt="info">
-                            <span style="color: #acbf78;">بيانات المريض</span>
+                            <span style="color: #06c4a9;">بيانات المريض</span>
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-12 mb-4">
-                        <a style="color: #acbf78;" href="{{ route('doctor.appointments.index', $patient->id) }}" class="btn-3d">
+                        <a style="color: #06c4a9;" href="{{ route('doctor.appointments.index', $patient->id) }}" class="btn-3d">
                             <img class="icon" src="{{ asset('appointments.png') }}" alt="appointments">
-                            <span style="color: #acbf78;">المواعيد</span>
+                            <span style="color: #06c4a9;">المواعيد</span>
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-12 mb-4">
-                                                <a style="color: #acbf78;" href="{{ route('doctor.diet_plans.index', $patient->id) }}" class="btn-3d">
+                                                <a style="color: #06c4a9;" href="{{ route('doctor.diet_plans.index', $patient->id) }}" class="btn-3d">
 
                             <img class="icon" src="{{ asset('Dietplan.png') }}" alt="Dietplan">
-                            <span style="color: #acbf78;">الخطة الغذائية</span>
+                            <span style="color: #06c4a9;">الخطة الغذائية</span>
                         </a>
                     </div>
                 </div>

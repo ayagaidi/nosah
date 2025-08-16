@@ -12,7 +12,7 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Doctor Deit-@yield('title')</title>
+    <title>Nosah-@yield('title')</title>
 
     
     <link rel="stylesheet" href="{{ asset('dash/assets/styles/style.min.css') }}">
@@ -30,7 +30,7 @@
 
 <body style="font-family:Cairo;">
 
-    <div id="single-wrapper" style="background-color: #95b43f;">
+    <div id="single-wrapper" style="background-color: #06c4a9;">
        @yield('content')
         <!-- /.frm-single -->
     </div>

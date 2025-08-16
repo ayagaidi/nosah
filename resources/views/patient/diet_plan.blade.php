@@ -24,7 +24,7 @@
 </div>
 
 <section class="meal-plan-section" style="padding: 4rem 2rem; background-color: #f9f9f9;">
-  <h2 style="text-align:center; font-size:2rem; color:#16a5b9; margin-bottom:2rem;">وجبات الأسبوع</h2>
+  <h2 style="text-align:center; font-size:2rem; color:#112132; margin-bottom:2rem;">وجبات الأسبوع</h2>
   <div class="meal-grid row" id="diet-cards-row" style="
     display:grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));

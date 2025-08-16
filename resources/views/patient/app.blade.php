@@ -12,7 +12,7 @@
     <link rel="icon" type="image/png" sizes="56x56" href="{{ asset('logo.ico') }}">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Doctor Deit-@yield('title')</title>
+    <title>Nosah-@yield('title')</title>
 
     <!--====== Favicon Icons css ======-->
     <!--====== FontAwesome Icons css ======-->
@@ -153,7 +153,7 @@
             border-radius: 8px;
         }
         .doctor-list h3 {
-            color: #16a5b9;
+            color: #112132;
             margin-bottom: 1rem;
             text-align: center;
         }
@@ -161,13 +161,13 @@
             padding: 0.5rem;
             border-bottom: 1px solid #ccc;
             cursor: pointer;
-            color: #16a5b9;
+            color: #112132;
         }
         .doctor-item:last-child {
             border-bottom: none;
         }
         .doctor-item:hover {
-            background-color: #73a22a;
+            background-color: #0F3440;
             color: white;
         }
     </style>

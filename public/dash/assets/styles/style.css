@@ -80,7 +80,7 @@ a {
 a {
     text-decoration: none !important;
     outline: none;
-    color: #16a5b9;
+    color: #112132;
 }
 
 a:hover,
@@ -88,7 +88,7 @@ a:active,
 a:focus {
     text-decoration: none !important;
     outline: none;
-    color: #16a5b9;
+    color: #112132;
 }
 
 input,
@@ -190,7 +190,7 @@ label {
 }
 
 .fa-hover:hover {
-    background: #16a5b9;
+    background: #112132;
     color: #ffffff;
 }
 
@@ -680,29 +680,29 @@ h4 strong {
 }
 
 .btn-primary {
-    background: #16a5b9;
+    background: #112132;
 }
 
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus {
-    background: #16a5b9 !important;
+    background: #112132 !important;
 }
 
 .btn-primary.btn-bordered {
-    border-color: #16a5b9;
-    color: #16a5b9;
+    border-color: #112132;
+    color: #112132;
 }
 
 .btn-primary.btn-bordered:hover,
 .btn-primary.btn-bordered:active,
 .btn-primary.btn-bordered:focus {
-    border-color: #16a5b9;
+    border-color: #112132;
     color: #ffffff;
 }
 
 .btn-success {
-    background: #16a5b9;
+    background: #112132;
 }
 
 .btn-success:hover,
@@ -712,8 +712,8 @@ h4 strong {
 }
 
 .btn-success.btn-bordered {
-    border-color: #16a5b9;
-    color: #16a5b9;
+    border-color: #112132;
+    color: #112132;
 }
 
 .btn-success.btn-bordered:hover,
@@ -890,11 +890,11 @@ h4 strong {
 }
 
 .bg-primary {
-    background-color: #16a5b9 !important;
+    background-color: #112132 !important;
 }
 
 .bg-success {
-    background-color: #16a5b9 !important;
+    background-color: #112132 !important;
 }
 
 .bg-info {
@@ -969,7 +969,7 @@ h4 strong {
 }
 
 .text-success {
-    color: #16a5b9 !important;
+    color: #112132 !important;
 }
 
 .text-info {
@@ -1008,7 +1008,7 @@ h4 strong {
 .table>thead>tr.success>th,
 .table>thead>tr>td.success,
 .table>thead>tr>th.success {
-    background: #16a5b9;
+    background: #112132;
 }
 
 .table>tbody>tr.info>td,
@@ -1038,7 +1038,7 @@ h4 strong {
 .table>thead>tr.primary>th,
 .table>thead>tr>td.primary,
 .table>thead>tr>th.primary {
-    background: #16a5b9;
+    background: #112132;
 }
 
 .table>tbody>tr.danger>td,
@@ -1104,7 +1104,7 @@ Version 1.0
     width: 260px;
     height: 100%;
     padding-top: 50px;
-    background: #16a5b9;
+    background: #112132;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 1px 1px rgba(0, 0, 0, 0.05);
     -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 1px 1px rgba(0, 0, 0, 0.05);
     -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -1167,7 +1167,7 @@ Version 1.0
     z-index: 20;
     right: 0px;
     padding: 0px 20px 0px 70px;
-    background: #16a5b9;
+    background: #112132;
     color: #ffff;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
@@ -1315,7 +1315,7 @@ Version 1.0
     white-space: nowrap;
     overflow: hidden;
     color: white;
-    background: #16a5b9;
+    background: #112132;
     font-weight: 500;
 }
 
@@ -1444,7 +1444,7 @@ Version 1.0
 }
 
 .user .control-list a:hover {
-    color: #16a5b9;
+    color: #112132;
 }
 
 .user .name {
@@ -1464,7 +1464,7 @@ Version 1.0
 
 @media (min-width: 1025px) {
     .user .name a:hover {
-        color: #16a5b9;
+        color: #112132;
     }
 }
 
@@ -1496,7 +1496,7 @@ Version 1.0
     left: 1px;
     width: 8px;
     height: 8px;
-    background: #16a5b9;
+    background: #112132;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
@@ -1533,16 +1533,16 @@ Version 1.0
 
 @media (min-width: 1025px) {
     .navigation .menu a:hover {
-        color: #16a5b9;
+        color: #112132;
     }
     .navigation .menu a:hover i {
-        color: #16a5b9;
+        color: #112132;
     }
 }
 
 .navigation .menu a.active,
 .navigation .menu a.current {
-    color: #16a5b9;
+    color: #112132;
 }
 
 .navigation .menu a i {
@@ -1603,7 +1603,7 @@ Version 1.0
 }
 
 .navigation .menu>li.current>a {
-    background: #16a5b9;
+    background: #112132;
     color: #ffffff;
 }
 
@@ -1612,7 +1612,7 @@ Version 1.0
 }
 
 .navigation .menu>li.current .current>a {
-    color: #16a5b9;
+    color: #112132;
 }
 
 .navigation .menu>li.current .sub-menu {
@@ -1764,7 +1764,7 @@ Version 1.0
     }
     .menu-active .navigation .menu>li:hover>a {
         width: 260px;
-        background: #16a5b9;
+        background: #112132;
         color: #ffffff;
         padding-left: 90px;
     }
@@ -1832,7 +1832,7 @@ Version 1.0
 
 @media (min-width: 1025px) {
     .fixed-navbar .ico-item:hover {
-        color: #16a5b9;
+        color: #112132;
     }
 }
 
@@ -1978,7 +1978,7 @@ Version 1.0
 }
 
 .fixed-navbar .ico-item.toggle-hover .toggle-content .read-more:hover {
-    color: #16a5b9;
+    color: #112132;
 }
 
 .fixed-navbar .ico-item.toggle-hover.active .toggle-content {
@@ -2054,7 +2054,7 @@ Version 1.0
 }
 
 .fixed-navbar .sub-ico-item a:hover {
-    color: #16a5b9;
+    color: #112132;
 }
 
 @media (max-width: 479px) {
@@ -2141,7 +2141,7 @@ Version 1.0
 
 @media (min-width: 1025px) {
     .footer a:hover {
-        color: #16a5b9;
+        color: #112132;
     }
 }
 
@@ -2188,7 +2188,7 @@ Version 1.0
     -o-transition: all 0.4s ease;
     -ms-transition: all 0.4s ease;
     -webkit-transition: all 0.4s ease;
-    color: #acbf78;
+    color: #06c4a9;
 }
 
 .box-content .box-title .ico {
@@ -2285,7 +2285,7 @@ Version 1.0
 
 @media (min-width: 1025px) {
     .box-content .dropdown.js__drop_down .sub-menu a:hover {
-        color: #16a5b9;
+        color: #112132;
     }
 }
 
@@ -2394,11 +2394,11 @@ Version 1.0
 }
 
 .box-content.success {
-    border-color: #16a5b9;
+    border-color: #112132;
 }
 
 .box-content.success .box-title {
-    color: #16a5b9;
+    color: #112132;
 }
 
 .box-content.info {
@@ -2593,7 +2593,7 @@ Version 1.0
 
 .fc .fc-event,
 .fc .fc-event-dot {
-    background: #16a5b9;
+    background: #112132;
     transition: none;
     -moz-transition: none;
     -webkit-transition: none;
@@ -2723,8 +2723,8 @@ Version 1.0
 }
 
 .checkbox.success input[type="checkbox"]:checked+label:before {
-    background: #16a5b9;
-    border-color: #16a5b9;
+    background: #112132;
+    border-color: #112132;
 }
 
 .checkbox.info input[type="checkbox"]:checked+label:before {
@@ -2793,7 +2793,7 @@ Version 1.0
 }
 
 .dataTables_wrapper .dataTable .group {
-    background-color: #16a5b9;
+    background-color: #112132;
     color: #ffffff;
 }
 
@@ -2818,7 +2818,7 @@ Version 1.0
 
 table.focus-on>tbody>tr.focused.unfocused>th,
 table.focus-on>tbody>tr.focused.unfocused>td {
-    background: #16a5b9;
+    background: #112132;
     color: #ffffff;
 }
 
@@ -2962,7 +2962,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .inbox-list .name {
-    color: #16a5b9;
+    color: #112132;
     margin: 0px;
     transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
@@ -2979,7 +2979,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 
 @media (min-width: 1025px) {
     .inbox-list .name:hover {
-        color: #16a5b9;
+        color: #112132;
     }
 }
 
@@ -3106,7 +3106,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 
 .notice-blue {
     color: #ffffff;
-    background: #16a5b9;
+    background: #112132;
 }
 
 .notice-purple {
@@ -3196,7 +3196,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 
 @media (min-width: 1025px) {
     .notice-list .name:hover {
-        color: #16a5b9;
+        color: #112132;
     }
 }
 
@@ -3330,7 +3330,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .notice-popup .notice-read-more:hover {
-    color: #16a5b9;
+    color: #112132;
 }
 
 #message-popup {
@@ -3485,11 +3485,11 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .radio.primary label:after {
-    background: #16a5b9;
+    background: #112132;
 }
 
 .radio.success label:after {
-    background: #16a5b9;
+    background: #112132;
 }
 
 .radio.info label:after {
@@ -3517,11 +3517,11 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .radio.primary input[type="radio"]:checked+label:before {
-    border-color: #16a5b9;
+    border-color: #112132;
 }
 
 .radio.success input[type="radio"]:checked+label:before {
-    border-color: #16a5b9;
+    border-color: #112132;
 }
 
 .radio.info input[type="radio"]:checked+label:before {
@@ -3606,7 +3606,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 
 @media (min-width: 1025px) {
     .searchform .button-search:hover {
-        color: #16a5b9;
+        color: #112132;
     }
 }
 
@@ -3732,13 +3732,13 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .switch.primary input[type="checkbox"]:checked+label:before {
-    background: #16a5b9;
-    border-color: #16a5b9;
+    background: #112132;
+    border-color: #112132;
 }
 
 .switch.success input[type="checkbox"]:checked+label:before {
-    background: #16a5b9;
-    border-color: #16a5b9;
+    background: #112132;
+    border-color: #112132;
 }
 
 .switch.info input[type="checkbox"]:checked+label:before {
@@ -4107,12 +4107,12 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .box.box-solid.box-primary {
-    border: 1px solid #16a5b9;
+    border: 1px solid #112132;
 }
 
 .box.box-solid.box-primary>.box-header {
     color: #ffffff;
-    background-color: #16a5b9;
+    background-color: #112132;
 }
 
 .box.box-solid.box-primary>.box-header a,
@@ -4121,12 +4121,12 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .box.box-solid.box-success {
-    border: 1px solid #16a5b9;
+    border: 1px solid #112132;
 }
 
 .box.box-solid.box-success>.box-header {
     color: #ffffff;
-    background-color: #16a5b9;
+    background-color: #112132;
 }
 
 .box.box-solid.box-success>.box-header a,
@@ -4351,7 +4351,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 
 .box-body .nav li.active a {
     background: #ffffff;
-    color: #16a5b9;
+    color: #112132;
 }
 
 .box-body .nav a {
@@ -4364,7 +4364,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 
 .box-body .nav a:hover {
     background: #ffffff;
-    color: #16a5b9;
+    color: #112132;
 }
 
 .box-body .nav .fa {
@@ -4450,7 +4450,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .mailbox-messages .unread>td:first-of-type {
-    border-left: 5px solid #16a5b9;
+    border-left: 5px solid #112132;
 }
 
 .mailbox-messages .unread .mailbox-subject span {
@@ -4706,7 +4706,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .frm-single .frm-input .frm-inp:focus {
-    border-color: #16a5b9;
+    border-color: #112132;
     padding-left: 10px;
 }
 
@@ -4751,14 +4751,14 @@ table.focus-on>tbody>tr.focused.unfocused>td {
     width: 100%;
     height: 36px;
     border: none;
-    background: #16a5b9;
+    background: #112132;
     color: #ffffff;
     margin-bottom: 15px;
 }
 
 @media (min-width: 1025px) {
     .frm-single .frm-submit:hover {
-        background: #16a5b9;
+        background: #112132;
     }
 }
 
@@ -5207,7 +5207,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .profile-avatar .btn-inbox {
-    background: #16a5b9;
+    background: #112132;
 }
 
 .profile-friends-list li {
@@ -5338,7 +5338,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .contact-social .fa-envelope {
-    background: #16a5b9;
+    background: #112132;
 }
 
 .contact-social .fa-facebook {
@@ -5414,7 +5414,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 .pricing-table .col-first .thead {
     border: 1px solid #e9eaeb;
     background: none;
-    color: #16a5b9;
+    color: #112132;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
@@ -5428,7 +5428,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 .pricing-table .thead {
     height: 110px;
     padding: 13px;
-    background: #16a5b9;
+    background: #112132;
     color: #fff;
     vertical-align: middle;
 }
@@ -5442,7 +5442,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .pricing-table .thead.bg-main-2 {
-    background-color: #16a5b9;
+    background-color: #112132;
 }
 
 .pricing-table .thead.bg-blue-1 {
@@ -5454,7 +5454,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .pricing-table .thead.bg-blue-3 {
-    background-color: #16a5b9;
+    background-color: #112132;
 }
 
 .pricing-table .price {
@@ -5523,7 +5523,7 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .pricing-table .td .fa-check {
-    color: #16a5b9;
+    color: #112132;
     font-size: 24px;
     line-height: 48px;
 }
@@ -5564,12 +5564,12 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 }
 
 .pricing-table .col-featured .td .btn-order {
-    background: #16a5b9;
+    background: #112132;
 }
 
 @media (min-width: 1025px) {
     .pricing-table .td .btn-order:hover {
-        background: #16a5b9;
+        background: #112132;
     }
     .pricing-table .col:hover:before {
         opacity: 1;
@@ -5829,12 +5829,12 @@ table.focus-on>tbody>tr.focused.unfocused>td {
 
 @media (min-width: 1025px) {
     .isotope-filter .filter-controls a:hover {
-        color: #16a5b9;
+        color: #112132;
     }
 }
 
 .isotope-filter .filter-controls .js__active {
-    color: #16a5b9;
+    color: #112132;
 }
 
 
@@ -5897,7 +5897,7 @@ textarea.form-control {
 }
 
 .has-success .form-control {
-    border-color: #16a5b9;
+    border-color: #112132;
 }
 
 .has-warning .form-control {
@@ -5934,7 +5934,7 @@ textarea.form-control {
 }
 
 .has-success .form-with-icon .item-icon {
-    color: #16a5b9;
+    color: #112132;
 }
 
 .has-warning .form-with-icon .item-icon {
@@ -6193,7 +6193,7 @@ textarea.form-control {
 }
 
 .sweet-alert.visible .sa-icon.sa-success .sa-line {
-    background: #16a5b9;
+    background: #112132;
 }
 
 .sweet-alert.visible .sa-icon.sa-warning {

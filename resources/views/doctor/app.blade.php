@@ -11,7 +11,7 @@
     <link rel="icon" type="image/png" sizes="56x56" href="{{ asset('logo.ico') }}">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Doctor Deit-@yield('title')</title>
+    <title>Nosah-@yield('title')</title>
 
     <link rel="stylesheet" href="{{ asset('dash/assets/styles/style.min.css') }}">
 
