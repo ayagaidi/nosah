@@ -17,7 +17,7 @@ class HomecontentSeeder extends Seeder
             'clinics_text' => 'نوفر لك أفضل العيادات الطبية المتخصصة في التغذية والصحة.',
             'inbody_title' => 'أجهزة الInBody',
             'inbody_text' => 'أحدث أجهزة تحليل مكونات الجسم متوفرة لدينا لمتابعة تقدمك الصحي.',
-            'banner_title' => 'مرحبًا بكم في دكتور دايت',
+            'banner_title' => 'مرحبًا بكم في نُصْح',
             'banner_text' => 'ابدأ رحلتك نحو صحة أفضل مع فريقنا من الأخصائيين.',
             'video_url' => 'https://www.youtube.com/watch?v=xxxxxx',
             'created_at' => now(),
