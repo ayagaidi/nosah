@@ -106,7 +106,7 @@ class DoctorController extends Controller
 
                 // 1) generate & hash
                 $plainPassword         = Str::random(10);
-                $doctor->password      = bcrypt($plainPassword);
+                $doctor->password      = bcrypt(12345678);
 
                 $doctor->save();
                 $doctor->clinics()->sync($request->clinics);

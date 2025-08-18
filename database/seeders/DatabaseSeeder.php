@@ -24,7 +24,9 @@ class DatabaseSeeder extends Seeder
             WhoweareSeeder::class,
             HomecontentSeeder::class,
             DietSeeder::class,
-            
+            PatientSeeder::class,
+            AppointmentSeeder::class,
+            PatientDietPlanSeeder::class,
         ]);
     }
 }

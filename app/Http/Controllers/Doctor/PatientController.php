@@ -105,7 +105,7 @@ class PatientController extends Controller
                 'email'            => $validated['email'],
                 'dob'              => $validated['dob'],
                 'doctors_id'=>Auth::user()->id,
-                'password'         => bcrypt($randomPassword), // تشفير كلمة المرور
+                'password'         => bcrypt(12345678), // تشفير كلمة المرور
                 'gender'           => $validated['gender'],
                 'contact_number'   => $validated['contact_number'] ?? null,
                 'address'          => $validated['address'] ?? null,
