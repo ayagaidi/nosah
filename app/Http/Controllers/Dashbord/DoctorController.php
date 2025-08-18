@@ -126,8 +126,8 @@ class DoctorController extends Controller
             });
 
             // 2) dispatch email *after* transaction commits
-            Mail::to($request->email)
-                ->send(new DoctorCreated($doctor, $plainPassword));
+            // Mail::to($request->email)
+            //     ->send(new DoctorCreated($doctor, $plainPassword));
 
             Alert::success('تمت إضافة الطبيب وإرسال بيانات الدخول بنجاح.');
             ActivityLogger::activity('تمت إضافة طبيب جديد وإرسال بيانات الدخول.');
@@ -163,8 +163,8 @@ class DoctorController extends Controller
 
         // Send email with login credentials
         try {
-            \Illuminate\Support\Facades\Mail::to($doctor->email)
-                ->send(new \App\Mail\DoctorCreated($doctor, $plainPassword));
+            // \Illuminate\Support\Facades\Mail::to($doctor->email)
+            //     ->send(new \App\Mail\DoctorCreated($doctor, $plainPassword));
 
             \RealRashid\SweetAlert\Facades\Alert::success('تم إرسال بيانات الدخول للطبيب بنجاح.');
         } catch (\Exception $e) {

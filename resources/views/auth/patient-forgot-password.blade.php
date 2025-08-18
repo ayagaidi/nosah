@@ -39,7 +39,7 @@
         </div>
         <div class="col-lg-5 text-lg-right">
           <div class="hero-soft2" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000" data-aos-delay="500">
-            <img src="{{ asset('logindoc.png') }}" alt="">
+            <img src="{{ asset('pation.png') }}" alt="">
           </div>
         </div>
       </div>
