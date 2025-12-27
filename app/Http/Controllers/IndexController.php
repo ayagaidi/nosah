@@ -78,7 +78,7 @@ class IndexController extends Controller
         return redirect(RouteServiceProvider::HOME);
     }
         $search = $request->input('search');
-        $query = Clinic::with('cities')->where('active', 1);
+        $query = Clinic::with(['cities', 'doctors'])->where('active', 1);
 
         if ($search) {
             $query->where(function ($q) use ($search) {

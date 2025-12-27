@@ -2,10 +2,6 @@
 @section('title', 'العيادات')
 
 @section('content')
-
-
-
-
     <div class="inner-welcome  pt85 bg4">
         <div class="container">
             <div class="row">
@@ -39,7 +35,7 @@
                                     <div class="single-products shadow rounded h-100 d-flex flex-column">
                                         <div class="products-img position-relative">
                                             <img src="{{ asset('clinics.png') }}" alt="" class="img-fluid rounded-top" style="height:180px;object-fit:cover;">
-                                           
+                                            
                                         </div>
                                         <div class="products-content flex-grow-1 d-flex flex-column justify-content-between p-3">
                                             <div class="text-center mb-2">
@@ -58,6 +54,18 @@
                                                     </a>
                                                 @else
                                                     <span class="text-muted small">لا يوجد موقع</span>
+                                                @endif
+                                            </div>
+                                            <div class="text-center mt-2">
+                                                <h5 class="mb-1" style="font-size:1rem;">الأطباء في العيادة:</h5>
+                                                @if($item->doctors->count())
+                                                    <ul class="list-unstyled mb-0">
+                                                        @foreach($item->doctors as $doctor)
+                                                            <li class="small">{{ $doctor->fullname }}</li>
+                                                        @endforeach
+                                                    </ul>
+                                                @else
+                                                    <span class="text-muted small">لا يوجد أطباء</span>
                                                 @endif
                                             </div>
                                         </div>
