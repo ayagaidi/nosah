@@ -33,7 +33,6 @@ class PatientDietPlanController extends Controller
             FacadesAlert::error('خطأ', 'المريض غير موجود');
             return back()->withErrors(['patient_id' => 'المريض غير موجود']);
         }
-        FacadesAlert::success('نجاح', 'تم العثور على المريض بنجاح.');
         return redirect()->route('doctor.diet_plans.index', $patient->id);
     }
 

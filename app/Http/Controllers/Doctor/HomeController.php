@@ -88,7 +88,6 @@ class HomeController extends Controller
             Alert::error('خطأ', 'المريض غير موجود');
             return back()->withErrors(['patient_id' => 'المريض غير موجود']);
         }
-        Alert::success('نجاح', 'تم العثور على المريض بنجاح.');
 
         return view('doctor.home', ['patient' => $patient]);
     }
