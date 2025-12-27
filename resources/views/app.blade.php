@@ -53,13 +53,6 @@
   </div>
   <!--====== Preloader End ======-->
 
-  <!--====== Cursor Start ======-->
-  <div class="cursor cursor3">
-    <div class="cursor-dot"></div>
-  </div>
-  <!--====== Cursor End ======-->
-
-
   <!--====== Header Start ======-->
   <header class="absolute-header">
     <div class="header-area header3" id="header">

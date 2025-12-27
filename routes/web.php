@@ -73,6 +73,7 @@ Route::prefix('doctor')->name('doctor.')->group(function () {
         Route::delete('{plan}/delete', [App\Http\Controllers\Doctor\PatientDietPlanController::class, 'destroy'])->name('delete');
     });
 });
+
 Route::namespace('Dashbord')->group(function () {
     Route::get('home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
     Route::get('users', [App\Http\Controllers\Dashbord\UserController::class, 'index'])->name('users');

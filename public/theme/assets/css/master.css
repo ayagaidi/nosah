@@ -4479,6 +4479,10 @@ small.stock {
     z-index: 99;
 }
 
+.menu-elements:hover .cursor {
+    display: none;
+}
+
 .cursor.cursor2 {
     border: 1px solid #EC5E09;
 }

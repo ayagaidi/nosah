@@ -66,6 +66,7 @@ class IndexController extends Controller
             ->with('whoweare', $whoweare);
     }
 
+   
 
     public function clinics(Request $request)
     {
@@ -106,7 +107,7 @@ class IndexController extends Controller
     } elseif (Auth::check()) {
         return redirect(RouteServiceProvider::HOME);
     }
-        $doctors = doctor::where('active', 1)->orderBy('created_at', 'DESC')->paginate(6);
+        $doctors = doctor::with('clinics')->where('active', 1)->orderBy('created_at', 'DESC')->paginate(6);
         return view('doctors')->with('doctors', $doctors);
     }
 

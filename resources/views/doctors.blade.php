@@ -48,6 +48,15 @@
                         {{ $doctor->specializations->name ?? 'بدون تخصص' }}
                     </p>
 
+                    @if ($doctor->clinics->isNotEmpty())
+                        <div class="clinic-list text-muted small mb-2">
+                            <strong>العيادات:</strong>
+                            @foreach ($doctor->clinics as $clinic)
+                                <span class="d-block">{{ $clinic->name }}</span>
+                            @endforeach
+                        </div>
+                    @endif
+
                     @if (!empty($doctor->cv))
                         <a href="{{ asset('doctors/cv/' . $doctor->cv) }}" target="_blank"
                            class="btn btn-sm btn-outline-success mt-auto">

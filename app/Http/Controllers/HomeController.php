@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Clinic;
+use App\Models\doctor;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use RealRashid\SweetAlert\Facades\Alert;
@@ -24,8 +26,17 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+   public function index()
     {
-        return view('home');
+
+        // Fetch statistics data
+        $doctorsCount = doctor::count();
+        $clinicsCount = Clinic::count();
+        $patientsCount = \App\Models\Patient::count();
+
+        return view('home')->with('doctorsCount', $doctorsCount)
+            ->with('clinicsCount', $clinicsCount)
+            ->with('patientsCount', $patientsCount);
     }
+
 }
