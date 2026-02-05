@@ -44,7 +44,7 @@
             
                 
                 
-                <a href="{{ route('password.request') }}" class="a-link"><i class="fa fa-unlock-alt"></i>نسيت كلمة المرور?</a></div>
+               </div>
             <!-- /.pull-right -->
         </div>
         <!-- /.clearfix -->

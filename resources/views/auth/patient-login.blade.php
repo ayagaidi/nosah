@@ -36,9 +36,7 @@
               
                 <button type="submit" class="btn btn-primary w-100">دخول</button>
             </form>
-            <div class="mt-3 text-center">
-                <a href="{{ route('patient.forgot-password') }}" class="text-primary">نسيت كلمة المرور؟</a>
-            </div>
+           
           </div>
         </div>
         <div class="col-lg-5 text-lg-right">

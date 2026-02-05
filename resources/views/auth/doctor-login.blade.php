@@ -36,9 +36,7 @@
                     @enderror
                 </div>
 
-                <div class="mb-3 text-right">
-                    <a href="{{ route('doctor.forgot-password') }}" class="text-primary">نسيت كلمة المرور؟</a>
-                </div>
+               
               
                 <button type="submit" class="btn btn-primary w-100">دخول</button>
             </form>

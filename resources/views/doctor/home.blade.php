@@ -59,8 +59,8 @@
             <form method="POST" action="{{ route('doctor.searchPatient') }}">
                 @csrf
                 <div class="form-group col-md-10">
-                    <label>رقم المريض</label>
-                    <input type="text" value="{{old('patient_id')}}" name="patient_id" class="form-control" required>
+                    <label>اسم المريض</label>
+                    <input type="text" value="{{old('patient_name')}}" name="patient_name" class="form-control" required placeholder="أدخل اسم المريض">
                 </div>
                 <div class="form-group col-md-2 text-center" style="margin-top: 31px;">
                     <button type="submit" class="btn btn-primary">

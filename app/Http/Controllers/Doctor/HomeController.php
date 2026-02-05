@@ -79,14 +79,16 @@ class HomeController extends Controller
 
     public function searchPatient(Request $request)
     {
-
         $request->validate([
-            'patient_id' => 'required|string',
+            'patient_name' => 'required|string',
         ]);
-        $patient = Patient::where('patient_number', $request->input('patient_id'))->first();
+        
+        // البحث بالاسم باستخدام LIKE للبحث الجزئي
+        $patient = Patient::where('full_name', 'like', '%' . $request->input('patient_name') . '%')->first();
+        
         if (!$patient) {
             Alert::error('خطأ', 'المريض غير موجود');
-            return back()->withErrors(['patient_id' => 'المريض غير موجود']);
+            return back()->withErrors(['patient_name' => 'المريض غير موجود']);
         }
 
         return view('doctor.home', ['patient' => $patient]);
